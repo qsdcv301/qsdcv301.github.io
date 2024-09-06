@@ -1,0 +1,265 @@
+/* Background Colors */
+
+/* 
+#E3FDFD
+#CBF1F5
+#A6E3E9
+#71C9CE 
+*/
+
+/* Screen */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(227, 253, 253, 0.5);
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+/* header Image */
+
+header .header-img {
+  overflow: hidden;
+}
+
+header img {
+  min-width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* header Navigation */
+nav > ul {
+  width: 100%;
+  background: #a6e3e9;
+}
+
+nav > ul > li {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+nav > ul > li {
+  transition: all 300ms ease;
+}
+
+nav > ul > li:hover:not(:last-child) {
+  background: #71c9ce;
+}
+
+.search {
+  position: relative;
+}
+.search input {
+  border: 1px solid #aaa;
+  outline: none;
+}
+
+.search-btn {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  font-size: 25px;
+  color: #e3fdfd;
+  position: absolute;
+  right: -25px;
+  top: -5px;
+}
+/* Content */
+
+/* content Header */
+
+.content-header {
+  padding: 0;
+  margin-bottom: 35px;
+}
+
+.content-header img {
+  max-width: 100%;
+}
+
+/* content middle */
+
+.content-middle h1,
+.content h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.content-middle li {
+  cursor: pointer;
+  padding: 5px;
+  background: #e3fdfd;
+}
+
+.card:hover {
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.card-gallery {
+  min-width: 100%;
+  height: 110px;
+}
+
+.card-body {
+  padding: 0.4vw;
+}
+
+.galleryBox h4,
+p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 1vw;
+}
+.galleryBox p {
+  font-size: 0.8vw;
+}
+
+/* content Main */
+
+.content {
+  margin-top: 35px;
+}
+
+.content-main h1 {
+  font-size: 35px;
+}
+
+.content-middleBox li {
+  cursor: pointer;
+  padding: 10px;
+  background: #e3fdfd;
+}
+
+.content-middleBox li:hover {
+  background: #cbf1f5;
+}
+
+.topword {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #ddd;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Aside */
+
+/* aside Navigation */
+aside {
+  position: relative;
+  height: 1282.5px;
+  width: 150px;
+  padding: 30px;
+  background: #e3fdfd;
+  flex-wrap: wrap;
+}
+.PI li:last-of-type {
+  margin-bottom: 50px;
+}
+
+.pi-img {
+  overflow: hidden;
+}
+
+.pi-img img {
+  min-width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+aside h2 {
+  font-size: 40px;
+}
+
+.side-nav {
+  width: 100%;
+}
+
+.side-nav > h2,
+.PI > h2,
+.copyright > h2 {
+  margin-bottom: 20px;
+}
+
+.side-nav > li,
+.PI > li,
+.copyright > li {
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.side-nav > li {
+  cursor: pointer;
+}
+
+.side-nav > li:hover {
+  background: #cbf1f5;
+}
+
+/* Footer */
+
+footer {
+  /* background: #71c9ce; */
+  background: #a6e3e9;
+}
+
+/* article */
+#myblogs img {
+  min-width: 100%;
+  height: 300px;
+}
+
+/* contact */
+.emailform {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.emailbg {
+  width: 90%;
+}
+
+.emailform li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* 반응형 */
+
+@media screen {
+  /* Aside 부분 viewpoint width 값이 줄어들면 사라짐*/
+}

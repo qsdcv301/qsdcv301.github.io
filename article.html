@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taehyeon Study History</title>
+    <link rel="shortcut icon" href="images/developer.png" type="image/x-icon">
+    <link rel="icon" href="images/developer.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+        integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 블로그 헤더 부분 -->
+    <header class="container-fluid">
+        <div class="header-img">
+            <img src="images/marvin-meyer-SYTO3xs06fU-unsplash.jpg" alt="titleImage">
+        </div>
+        <div class="container">
+            <div class="row flex-column">
+                <nav>
+                    <ul class="d-flex justify-content-around flex-row align-items-center">
+                        <li class="p-2">
+                            <a href="#">Calender</a>
+                        </li>
+                        <li class="p-2">
+                            <a href="#">Notice</a>
+                        </li>
+                        <li class="p-2">
+                            <form action="#" class="search" method="get">
+                                <input id="search-query" type="search" placeholder="검색..." autocomplete="off">
+                                <button type="submit" class="search-btn py-2 px-3">
+                                    <i class="ri-search-line search-icon"></i>
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="container content-page pb-5">
+        <div class="row content">
+            <div class="col-md-3 col-12">
+                <h3 class="ms-3 mt-5 mb-2">My GitHub Repo</h3>
+                <div class="bg-white m-3 p-3 shadow-sm">
+                    <ul class="repo" id="repo">
+                        <!-- 레포지토리 들어가는 곳 -->
+                    </ul>
+                </div>
+                <h3 class="ms-3 mt-5 mb-4">Popular words</h3>
+                <div class="pop-word" id="pop-word">
+
+                </div>
+            </div>
+            <div class="content-main col-12 col-md-9">
+                <div class="row" id="myblogs">
+                    <!-- 포스팅 들어가는 곳 -->
+                    <article>
+
+                    </article>
+                    <!-- 포스팅 들어가는 곳 -->
+                </div><!--/.ROW-->
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="copyright text-center pt-4 pb-2">
+            <div class="footer-subnav pb-3">
+                <a href="#" class="text-white text-decoration-none">A</a>
+                <span class="px-3 text-white">ㅣ</span>
+                <a href="#" class="text-white text-decoration-none">B</a>
+                <span class="px-3 text-white">ㅣ</span>
+                <a href="#" class="text-white text-decoration-none">C</a>
+                <span class="px-3 text-white">ㅣ</span>
+                <a href="#" class="text-white text-decoration-none">D</a>
+                <span class="px-3 text-white">ㅣ</span>
+                <a href="#" class="text-white text-decoration-none">E</a>
+                <span class="px-3 text-white">ㅣ</span>
+                <a href="#" class="text-white text-decoration-none">F</a>
+                <span class="px-3 text-white">ㅣ</span>
+                <a href="#" class="text-white text-decoration-none">G</a>
+            </div>
+            <p class="text-white">&copy; Taehyeon, LLC. All Rights Reserved</p>
+            <p>김태현 | 전화번호: 010-1234-1234 | 이메일:
+                test@naver.com</p>
+        </div>
+    </footer>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/14.1.0/marked.min.js"
+        integrity="sha512-Qktj2Bk6+ojlt4dv3vRu3WBEdrRTrG9uiDbEWktHTMfMejbM2jGae7SxdSeUWN1ictEX/wJ7SZtq5WPAT88hcA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/article.script.js"></script>
+    <script src="js/repo.script.js"></script>
+    <script src="js/hotword.script.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

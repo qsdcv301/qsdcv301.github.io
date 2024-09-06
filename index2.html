@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wein's blog</title>
+    <link rel="shortcut icon" href="blog/images/developer.png" type="image/x-icon">
+    <link rel="icon" href="blog/images/developer.png" type="image/x-icon">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="blog/css/style.css">
+</head>
+
+<body>
+    <!-- 헤더 네비게이션-->
+    <header class="navigation">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light px-0">
+                <a href="index.html" class="navbar-brand order-1 py-0">
+                    <img src="blog/images/logo.png" loading="preload" decoding="async" class="img-fluid" alt="my" />
+                </a>
+                <div class="navbar-actions order-3 ml-0 ml-md-4">
+                    <button area-lebel="navbar toggler" class="navbar-toggler border-0" type="button"
+                        data-toggle="collapse" data-target="#navigation"><span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <!-- 검색 -->
+                <form action="#" class="search order-lg-3 order-md-2 order-3 ml-auto" method="get">
+                    <input id="search-query" type="search" placeholder="검색..." autocomplete="off">
+                    <button type="submit" class="search-btn"><i class="ri-search-line search-icon"></i></button>
+                </form>
+                <!-- 네비게이션 -->
+                <div class="collapse navbar-collapse text-center order-lg-2 order-4" id="navigation">
+                    <ul class="navbar-nav mx-auto mt-3 mt-lg-0">
+                        <li class="nav-item"><a href="about.html" class="nav-link">내소개</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
+                                data-bs-toggle="dropdown">포스팅</a>
+                            <div class="dropdown-menu">
+                                <a href="travel.html" class="dropdown-item">여행기</a>
+                                <a href="food.html" class="dropdown-item">맛집탐방</a>
+                                <a href="sports.html" class="dropdown-item">스포츠</a>
+                                <a href="coding.html" class="dropdown-item">웹개발</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">연락주세요</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-9 col-12">
+                <div class="row" id="myposts">
+                    <!-- 포스팅 들어가는 곳 -->
+                </div><!--/.ROW-->
+            </div>
+            <div class="col-md-3 col-12">
+                <div class="bg-white m-3 p-3 shadow-sm">
+                    <img src="./blog/images/me.jpg" alt="me">
+                    <h2 class="py-3">Andrea Lee</h2>
+                    <p>Hello!</p>
+                    <p>I’m a passionate web developer with a strong background in creating dynamic and responsive
+                        websites.</p>
+                    <p>please, enjoy my blog.</p>
+                </div>
+                <h3 class="ms-3 mt-5 mb-2">My GitHub Repo</h3>
+                <div class="bg-white m-3 p-3 shadow-sm">
+                    <ul class="repo">
+                        <li class="my-4">
+                            <h1>프로젝트 제목</h1>
+                            <p>프로젝트 내용</p>
+                            <a href="#">링크</a>
+                        </li>
+                        <li class="my-4">
+                            <h1>프로젝트 제목</h1>
+                            <p>프로젝트 내용</p>
+                            <a href="#">링크</a>
+                        </li>
+                        <li class="my-4">
+                            <h1>프로젝트 제목</h1>
+                            <p>프로젝트 내용</p>
+                            <a href="#">링크</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <h3 class="ms-3 mt-5 mb-4">Popular words</h3>
+                <div class="pop-word">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Andrea Lee's blog
+                        </h6>
+                        <p>
+                            I’m a passionate web developer with a strong background in creating dynamic and responsive
+                            websites.
+                            please, enjoy my blog
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                        <p>
+                            <a class="text-white">내소개</a>
+                        </p>
+                        <p>
+                            <a class="text-white">포스팅</a>
+                        </p>
+                        <p>
+                            <a class="text-white">Contact</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p><i class="ri-home-gear-fill"></i> Jangi-dong Gimpo-si Gyunggi-do</p>
+                        <p><i class="ri-mail-add-fill"></i> ***@gmail.com</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+                        <div class="sns-box">
+                            <!-- kakao -->
+                            <a class="kakao sns" href="#!"><i class="ri-kakao-talk-fill"></i></a>
+
+                            <!-- Twitter -->
+                            <a class="twitter sns" href="#!"><i class="ri-kakao-talk-fill"></i></i></a>
+
+                            <!-- Google -->
+                            <a class="google sns"><i class="fab fa-google"></i></a>
+                        </div>
+
+                        <div class="sns-box">
+                            <!-- Instagram -->
+                            <a class="instagram sns" href="#!"><i class="fab fa-instagram"></i></a>
+
+                            <!-- Github -->
+                            <a class="github sns" href="#!"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            &copy; 2024 Copyright :
+            <a class="text-white" href="https://musecom.net/">wein</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/marked/14.1.0/marked.min.js"
+        integrity="sha512-Qktj2Bk6+ojlt4dv3vRu3WBEdrRTrG9uiDbEWktHTMfMejbM2jGae7SxdSeUWN1ictEX/wJ7SZtq5WPAT88hcA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="blog/js/posts.script.js"></script>
+    <script src="blog/js/script.js"></script>
+</body>
+
+</html>
